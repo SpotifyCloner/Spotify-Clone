@@ -1,0 +1,162 @@
+[
+  {
+    "song_id": "arijit_01",
+    "song_name": "Heeriye",
+    "artist": "Arijit Singh",
+    "album": "Single",
+    "language": "Hindi",
+    "lyrics": "Tere bina saansein adhoori si lage\nKhamoshi bhi mujhse kuch kehne lage\nDil har pal tera hi naam kahe"
+  },
+  {
+    "song_id": "arijit_02",
+    "song_name": "O Maahi",
+    "artist": "Arijit Singh",
+    "album": "Dunki",
+    "language": "Hindi",
+    "lyrics": "Safar mein tanha reh gaya hoon\nTeri yaadon ka bojh seh gaya hoon\nMaahi tu kahin bhi ho, paas lage"
+  },
+  {
+    "song_id": "arijit_03",
+    "song_name": "Satranga",
+    "artist": "Arijit Singh",
+    "album": "Animal",
+    "language": "Hindi",
+    "lyrics": "Rang badalte rahe jazbaat mere\nIshq ne likhe anjaam mere\nToot kar bhi tujhmein hi raha"
+  },
+  {
+    "song_id": "arijit_04",
+    "song_name": "Apna Bana Le",
+    "artist": "Arijit Singh",
+    "album": "Bhediya",
+    "language": "Hindi",
+    "lyrics": "Apna sa lagne laga hai tu\nHar darr se ladne laga hoon yun\nTere saath hi ab jeena hai"
+  },
+  {
+    "song_id": "arijit_05",
+    "song_name": "Kesariya",
+    "artist": "Arijit Singh",
+    "album": "Brahmastra",
+    "language": "Hindi",
+    "lyrics": "Dil ke rang mein tu hi basa\nHar dua mein tera hi nasha\nIshq mera tujhse hi saja"
+  },
+  {
+    "song_id": "arijit_06",
+    "song_name": "Tere Pyaar Mein",
+    "artist": "Arijit Singh",
+    "album": "TJMM",
+    "language": "Hindi",
+    "lyrics": "Pagal sa ho gaya hoon main\nTere pyaar mein kho gaya hoon main\nKhud ko bhi bhool baitha hoon"
+  },
+  {
+    "song_id": "arijit_07",
+    "song_name": "Phir Aur Kya Chahiye",
+    "artist": "Arijit Singh",
+    "album": "Zara Hatke Zara Bachke",
+    "language": "Hindi",
+    "lyrics": "Tu saath ho toh sab mil gaya\nKhwaabon ka shehar saj gaya\nPhir aur kya chahiye mujhe"
+  },
+  {
+    "song_id": "arijit_08",
+    "song_name": "Ve Kamleya",
+    "artist": "Arijit Singh",
+    "album": "Rocky Aur Rani",
+    "language": "Hindi",
+    "lyrics": "Dil mera kamla ho gaya\nTeri ek muskaan pe kho gaya\nIshq ne sab kuch chura liya"
+  },
+  {
+    "song_id": "arijit_09",
+    "song_name": "Chaleya",
+    "artist": "Arijit Singh",
+    "album": "Jawan",
+    "language": "Hindi",
+    "lyrics": "Tere saath chalne laga hoon\nHar darr se nikalne laga hoon\nTu mila toh raasta mila"
+  },
+  {
+    "song_id": "arijit_10",
+    "song_name": "Lutt Putt Gaya",
+    "artist": "Arijit Singh",
+    "album": "Dunki",
+    "language": "Hindi",
+    "lyrics": "Tere ishq mein lutt putt gaya\nKhud ka bhi pata bhool gaya\nDil bas tera hi ho gaya"
+  },
+  {
+    "song_id": "arijit_11",
+    "song_name": "Tum Kya Mile",
+    "artist": "Arijit Singh",
+    "album": "Rocky Aur Rani",
+    "language": "Hindi",
+    "lyrics": "Tum kya mile dil muska gaya\nZakhmon ka har dard mit sa gaya\nMohabbat ne sab kuch sikha diya"
+  },
+  {
+    "song_id": "arijit_12",
+    "song_name": "Jhoome Jo Pathaan",
+    "artist": "Arijit Singh",
+    "album": "Pathaan",
+    "language": "Hindi",
+    "lyrics": "Dhadkan bhi aaj jhoom uthi\nHar saans nayi si dhoop bani\nJunoon mein hi jeena seekha"
+  },
+  {
+    "song_id": "arijit_13",
+    "song_name": "Zinda Banda",
+    "artist": "Arijit Singh",
+    "album": "Jawan",
+    "language": "Hindi",
+    "lyrics": "Gir ke bhi uthna seekh liya\nAndheron se ladna seekh liya\nZinda rehna hi jeet hai"
+  },
+  {
+    "song_id": "arijit_14",
+    "song_name": "Ruaan",
+    "artist": "Arijit Singh",
+    "album": "Tiger 3",
+    "language": "Hindi",
+    "lyrics": "Tanhaayi mein bhi shor sa hai\nDil ka dard kuch aur sa hai\nKhud se hi ladta raha hoon"
+  },
+  {
+    "song_id": "arijit_15",
+    "song_name": "Dil Jhoom",
+    "artist": "Arijit Singh",
+    "album": "Gadar 2",
+    "language": "Hindi",
+    "lyrics": "Dil jhoom sa gaya aaj\nTeri yaadon mein kho gaya aaj\nMohabbat phir zinda hui"
+  },
+  {
+    "song_id": "arijit_16",
+    "song_name": "Ami Je Tomar",
+    "artist": "Arijit Singh",
+    "album": "Bhool Bhulaiyaa",
+    "language": "Hindi",
+    "lyrics": "Dil ne phir se tujhko chaha\nToot ke bhi tera hi raha\nIshq mera adhura sa raha"
+  },
+  {
+    "song_id": "arijit_17",
+    "song_name": "Khairiyat",
+    "artist": "Arijit Singh",
+    "album": "Chhichhore",
+    "language": "Hindi",
+    "lyrics": "Khairiyat se ho tum kahin\nDil bas yahi dua kare\nDoor rehkar bhi paas ho tum"
+  },
+  {
+    "song_id": "arijit_18",
+    "song_name": "Muskurane Ki Wajah",
+    "artist": "Arijit Singh",
+    "album": "CityLights",
+    "language": "Hindi",
+    "lyrics": "Muskurane ki wajah tum ho\nToot jaane ka sabab bhi tum ho\nZindagi tumse hi judi"
+  },
+  {
+    "song_id": "arijit_19",
+    "song_name": "Agar Tum Saath Ho",
+    "artist": "Arijit Singh",
+    "album": "Tamasha",
+    "language": "Hindi",
+    "lyrics": "Agar tum saath ho toh kya gham hai\nHar dard bhi jaise kam hai\nTera hona hi kaafi hai"
+  },
+  {
+    "song_id": "arijit_20",
+    "song_name": "Raabta",
+    "artist": "Arijit Singh",
+    "album": "Agent Vinod",
+    "language": "Hindi",
+    "lyrics": "Kuch toh hai tujhse raabta\nDil jaane na ye kya baat hai\nHar pal tujhi se waasta"
+  }
+]

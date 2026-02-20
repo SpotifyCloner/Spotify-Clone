@@ -1,0 +1,11 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# RAG runtime artifacts (IGNORE ONLY GENERATED STUFF)
+Rag-lyrics/**/chroma_store/
+Rag-lyrics/**/*.log
+
+# Env files
+.env
