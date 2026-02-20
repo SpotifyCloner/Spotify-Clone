@@ -1,5 +1,6 @@
 package org.example.backend.controller;
 
+import org.example.backend.dto.LoginRequest;
 import org.example.backend.entity.User;
 import org.example.backend.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,6 +17,11 @@ public class UserController {
     @PostMapping
     public ResponseEntity<User> createUser(@RequestBody User user) {
         return ResponseEntity.ok(userService.createUser(user));
+    }
+
+    @PostMapping("/login")
+    public ResponseEntity<User> loginUser(@RequestBody LoginRequest request) {
+        return ResponseEntity.ok(userService.loginUser(request.getEmail(), request.getPassword()));
     }
 
     @GetMapping("/{id}")
