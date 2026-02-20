@@ -28,6 +28,9 @@ public class User {
     @com.fasterxml.jackson.annotation.JsonProperty(access = com.fasterxml.jackson.annotation.JsonProperty.Access.WRITE_ONLY)
     private String password;
 
+    @Column(nullable = false)
+    private String role = "USER"; // "USER" or "ADMIN"
+
     private LocalDateTime createdAt;
 
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL)
@@ -37,5 +40,6 @@ public class User {
     @PrePersist
     protected void onCreate() {
         createdAt = LocalDateTime.now();
+        if (role == null) role = "USER";
     }
 }

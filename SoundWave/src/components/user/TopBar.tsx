@@ -1,17 +1,27 @@
-import { Home, Search, ListMusic, Headphones, LogOut, User } from "lucide-react";
+import { Home, Search, ListMusic, Headphones, LogOut, User, BarChart2, Shield } from "lucide-react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { useAuth } from "@/context/AuthContext";
 
 const TopBar = () => {
   const location = useLocation();
   const navigate = useNavigate();
-  const { user, isLoggedIn, logout } = useAuth();
+  const { user, isLoggedIn, isAdmin, logout } = useAuth();
 
-  const navItems = [
+  const userNavItems = [
     { path: "/", icon: Home, label: "Home" },
     { path: "/search", icon: Search, label: "Discover" },
     { path: "/create-playlist", icon: ListMusic, label: "Playlist" },
   ];
+
+  const adminNavItems = [
+    { path: "/", icon: Home, label: "Home" },
+    { path: "/search", icon: Search, label: "Discover" },
+    { path: "/create-playlist", icon: ListMusic, label: "Playlist" },
+    { path: "/analytics", icon: BarChart2, label: "Analytics" },
+    { path: "/admin/songs", icon: Shield, label: "Manage Songs" },
+  ];
+
+  const navItems = isAdmin ? adminNavItems : userNavItems;
 
   const handleLogout = () => {
     logout();
@@ -54,11 +64,16 @@ const TopBar = () => {
           <div className="flex items-center gap-3">
             {isLoggedIn ? (
                 <>
-                  <div className="flex items-center gap-2 text-sm text-foreground font-medium font-body">
-                    <div className="w-8 h-8 rounded-full bg-primary/20 flex items-center justify-center">
-                      <User size={14} className="text-primary" />
+                  <div className="flex items-center gap-2 text-sm font-medium font-body">
+                    <div className={`w-8 h-8 rounded-full flex items-center justify-center ${isAdmin ? "bg-primary/20" : "bg-accent/20"}`}>
+                      {isAdmin ? <Shield size={14} className="text-primary" /> : <User size={14} className="text-accent" />}
                     </div>
-                    <span className="hidden sm:inline">{user?.name}</span>
+                    <div className="hidden sm:flex flex-col leading-tight">
+                      <span className="text-foreground text-xs">{user?.name}</span>
+                      <span className={`text-[10px] font-semibold uppercase tracking-wide ${isAdmin ? "text-primary" : "text-accent"}`}>
+                    {user?.role}
+                  </span>
+                    </div>
                   </div>
                   <button
                       onClick={handleLogout}
@@ -70,16 +85,10 @@ const TopBar = () => {
                 </>
             ) : (
                 <>
-                  <Link
-                      to="/signup"
-                      className="text-text-subdued text-sm font-medium hover:text-foreground transition-colors"
-                  >
+                  <Link to="/signup" className="text-text-subdued text-sm font-medium hover:text-foreground transition-colors">
                     Sign up
                   </Link>
-                  <Link
-                      to="/login"
-                      className="glass px-5 py-2 rounded-full text-sm font-semibold text-primary hover:glow-primary transition-all duration-200"
-                  >
+                  <Link to="/login" className="glass px-5 py-2 rounded-full text-sm font-semibold text-primary hover:glow-primary transition-all duration-200">
                     Log in
                   </Link>
                 </>

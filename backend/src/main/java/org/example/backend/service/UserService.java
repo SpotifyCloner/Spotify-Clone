@@ -22,6 +22,9 @@ public class UserService {
             throw new RuntimeException("Email already exists");
         }
         user.setPassword(passwordEncoder.encode(user.getPassword()));
+        if (user.getRole() == null || user.getRole().isBlank()) {
+            user.setRole("USER");
+        }
         return userRepository.save(user);
     }
 
@@ -43,6 +46,9 @@ public class UserService {
             user.setName(userDetails.getName());
             if (userDetails.getPassword() != null && !userDetails.getPassword().isEmpty()) {
                 user.setPassword(passwordEncoder.encode(userDetails.getPassword()));
+            }
+            if (userDetails.getRole() != null && !userDetails.getRole().isBlank()) {
+                user.setRole(userDetails.getRole());
             }
             return userRepository.save(user);
         }).orElseThrow(() -> new RuntimeException("User not found with id " + id));
