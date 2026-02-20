@@ -16,7 +16,7 @@ A modern, user-friendly music application that gives you full control over your 
 - **Clean & Responsive UI** — Beautiful design that works on desktop and mobile
 - **Fast & Personal** — Your own music library, no ads, full privacy
 
-## 🚀 Tech Stack
+## 🚀 Tech Stack 
 
 - Frontend: React / Vue / Flutter / [your framework] + Tailwind CSS / Material UI
 - State Management: [Redux / Zustand / Provider / Riverpod / etc.]
