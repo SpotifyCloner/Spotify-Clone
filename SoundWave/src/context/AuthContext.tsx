@@ -1,4 +1,4 @@
-import { createContext, useContext, useState, useEffect, ReactNode } from "react";
+import { createContext, useContext, useState, ReactNode } from "react";
 import type { User } from "@/lib/api";
 
 interface AuthContextType {
@@ -6,6 +6,7 @@ interface AuthContextType {
     login: (user: User) => void;
     logout: () => void;
     isLoggedIn: boolean;
+    isAdmin: boolean;
 }
 
 const AuthContext = createContext<AuthContextType | null>(null);
@@ -31,7 +32,13 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     };
 
     return (
-        <AuthContext.Provider value={{ user, login, logout, isLoggedIn: !!user }}>
+        <AuthContext.Provider value={{
+            user,
+            login,
+            logout,
+            isLoggedIn: !!user,
+            isAdmin: user?.role === "ADMIN",
+        }}>
             {children}
         </AuthContext.Provider>
     );

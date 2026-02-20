@@ -4,6 +4,7 @@ export interface User {
     id: number;
     name: string;
     email: string;
+    role: "USER" | "ADMIN";
     createdAt?: string;
 }
 
@@ -20,12 +21,13 @@ export interface Playlist {
     tracks: Track[];
 }
 
-// ─── USER ────────────────────────────────────────────────────────────────────
+// ─── USER ─────────────────────────────────────────────────────────────────────
 
 export async function signupUser(data: {
     name: string;
     email: string;
     password: string;
+    role: "USER" | "ADMIN";
 }): Promise<User> {
     const res = await fetch(`${BASE_URL}/users`, {
         method: "POST",
@@ -39,9 +41,6 @@ export async function signupUser(data: {
     return res.json();
 }
 
-// NOTE: Your backend has no /login endpoint.
-// This is a temporary workaround — add a POST /users/login endpoint to your
-// backend that accepts { email, password } and returns the User for production use.
 export async function loginUser(data: {
     email: string;
     password: string;
@@ -64,7 +63,7 @@ export async function getUserById(id: number): Promise<User> {
     return res.json();
 }
 
-// ─── TRACKS ──────────────────────────────────────────────────────────────────
+// ─── TRACKS ───────────────────────────────────────────────────────────────────
 
 export async function getAllTracks(): Promise<Track[]> {
     const res = await fetch(`${BASE_URL}/tracks`);
@@ -83,6 +82,11 @@ export async function createTrack(data: {
     });
     if (!res.ok) throw new Error("Failed to create track");
     return res.json();
+}
+
+export async function deleteTrack(id: number): Promise<void> {
+    const res = await fetch(`${BASE_URL}/tracks/${id}`, { method: "DELETE" });
+    if (!res.ok) throw new Error("Failed to delete track");
 }
 
 // ─── PLAYLISTS ────────────────────────────────────────────────────────────────
