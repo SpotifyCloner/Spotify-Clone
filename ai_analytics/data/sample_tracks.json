@@ -1,0 +1,70 @@
+[
+  {"id":"t1","title":"Sunny Morning","artist":"Aurora Lane","lyrics":"Sunlight on the pavement, coffee in my hand, walking through the city like I own the land","tags":["uplifting","acoustic"],"mood":"happy","tempo":100,"genre":"indie","language":"en"},
+  {"id":"t2","title":"Midnight Drive","artist":"Neon Roads","lyrics":"Streetlights pass me by, radio telling lies, empty seats and distant skies","tags":["synth","moody"],"mood":"melancholy","tempo":85,"genre":"electronic","language":"en"},
+  {"id":"t3","title":"Golden Days","artist":"Aurora Lane","lyrics":"We were young and fearless, golden days and careless kisses","tags":["acoustic","nostalgic"],"mood":"nostalgic","tempo":95,"genre":"indie","language":"en"},
+  {"id":"t4","title":"Thunder Road","artist":"Highland","lyrics":"Engines roar and thunder, we will ride until we see the sun","tags":["rock","energetic"],"mood":"energetic","tempo":130,"genre":"rock","language":"en"},
+  {"id":"t5","title":"Quiet Waves","artist":"Seaborn","lyrics":"Ocean hushes, a quiet wave, holding secrets under the blue","tags":["ambient","calm"],"mood":"calm","tempo":60,"genre":"ambient","language":"en"},
+  {"id":"t6","title":"City Lights","artist":"Neon Roads","lyrics":"Neon signs and busy nights, hearts collide beneath the city lights","tags":["synth","uptempo"],"mood":"happy","tempo":110,"genre":"electronic","language":"en"},
+
+  {"id":"t7","title":"Dancing Tonight","artist":"Luna Rio","lyrics":"Hands up, hearts loud, dancing tonight until the morning comes","tags":["pop","dance"],"mood":"joyful","tempo":120,"genre":"pop","language":"en"},
+  {"id":"t8","title":"Amor Eterno","artist":"Sofia Mar","lyrics":"Bajo la luna te pienso, amor eterno en mis versos","tags":["pop","latin"],"mood":"romantic","tempo":95,"genre":"pop","language":"es"},
+  {"id":"t9","title":"Khushi","artist":"Rohan Kapoor","lyrics":"Khushi ke pal, muskurahat ban jaaye, saath chalna hai humein","tags":["pop","bollywood"],"mood":"happy","tempo":100,"genre":"pop","language":"hi"},
+  {"id":"t10","title":"Le Matin","artist":"Claire Dupont","lyrics":"Le matin brille, mon cœur s'éveille à toi","tags":["pop","french"],"mood":"calm","tempo":90,"genre":"pop","language":"fr"},
+  {"id":"t11","title":"光の歌","artist":"Yuki Sato","lyrics":"街の光が僕らを照らすよ","tags":["pop","japanese"],"mood":"uplifting","tempo":105,"genre":"pop","language":"jp"},
+
+  {"id":"t12","title":"Rising Ashes","artist":"Stone Harbor","lyrics":"Broken chains and rising ashes, we reclaim the night","tags":["rock","alternative"],"mood":"angry","tempo":140,"genre":"rock","language":"en"},
+  {"id":"t13","title":"Corazón de Fuego","artist":"Los Fieros","lyrics":"Guitarras en la noche, corazón en fuego","tags":["rock","latin-rock"],"mood":"energetic","tempo":135,"genre":"rock","language":"es"},
+  {"id":"t14","title":"पाथेय","artist":"IndieFault","lyrics":"रातें जागी हैं, गिटार की आवाज़ के साथ","tags":["rock","indian-rock"],"mood":"intense","tempo":128,"genre":"rock","language":"hi"},
+  {"id":"t15","title":"Sturm und Klang","artist":"Die Wolken","lyrics":"Wenn die Straßen beben, singen wir laut","tags":["rock","german-rock"],"mood":"rebellious","tempo":132,"genre":"rock","language":"de"},
+  {"id":"t16","title":"夜の轟き","artist":"Kaze Band","lyrics":"夜風に叫ぶギターの調べ","tags":["rock","japanese-rock"],"mood":"energetic","tempo":138,"genre":"rock","language":"jp"},
+
+  {"id":"t17","title":"Pulse","artist":"Electra","lyrics":"Beat drops, heart stops, neon pulses through the dark","tags":["electronic","synth"],"mood":"energetic","tempo":125,"genre":"electronic","language":"en"},
+  {"id":"t18","title":"Noche Digital","artist":"DJ Sol","lyrics":"La noche vibra en impulsos digitales","tags":["electronic","dance"],"mood":"party","tempo":128,"genre":"electronic","language":"es"},
+  {"id":"t19","title":"रात की धड़कन","artist":"Beat Raja","lyrics":"बास में खो जाना, रात की धड़कन साथ ले जाना","tags":["electronic","bollywood"],"mood":"party","tempo":122,"genre":"electronic","language":"hi"},
+  {"id":"t20","title":"Lumière","artist":"Synthetique","lyrics":"Synths inondent la ville, lumière et son","tags":["electronic","ambient"],"mood":"calm","tempo":100,"genre":"electronic","language":"fr"},
+  {"id":"t21","title":"海の波形","artist":"OceanDrive","lyrics":"デジタルの波が街を包む","tags":["electronic","chill"],"mood":"calm","tempo":90,"genre":"electronic","language":"jp"},
+
+  {"id":"t22","title":"Paper Boats","artist":"The Mariners","lyrics":"Paper boats float in the backyard rain","tags":["indie","acoustic"],"mood":"nostalgic","tempo":88,"genre":"indie","language":"en"},
+  {"id":"t23","title":"Viento","artist":"Isla Verde","lyrics":"Viento trae historias de un viejo amor","tags":["indie","folk"],"mood":"melancholy","tempo":80,"genre":"indie","language":"es"},
+  {"id":"t24","title":"Dil Ke Kinare","artist":"Maya & The Moon","lyrics":"दिल के किनारे छुपे गीत","tags":["indie","acoustic"],"mood":"calm","tempo":78,"genre":"indie","language":"hi"},
+  {"id":"t25","title":"Souvenir","artist":"Petit Pois","lyrics":"Les souvenirs s'accrochent comme des ombres douces","tags":["indie","dream"],"mood":"nostalgic","tempo":82,"genre":"indie","language":"fr"},
+  {"id":"t26","title":"밤의 산책","artist":"Moonwalk","lyrics":"작은 골목을 걷는 밤의 멜로디","tags":["indie","acoustic"],"mood":"calm","tempo":85,"genre":"indie","language":"kr"},
+
+  {"id":"t27","title":"Drift","artist":"Hollow Sky","lyrics":"Soft textures drift across the room","tags":["ambient","instrumental"],"mood":"calm","tempo":50,"genre":"ambient","language":"en"},
+  {"id":"t28","title":"Mar en Silencio","artist":"Brisa","lyrics":"El mar susurra y todo se aquieta","tags":["ambient","calm"],"mood":"calm","tempo":55,"genre":"ambient","language":"es"},
+  {"id":"t29","title":"शांत बादल","artist":"Ananta","lyrics":"शांत बादल धीरे बहते हैं","tags":["ambient","meditative"],"mood":"calm","tempo":48,"genre":"ambient","language":"hi"},
+  {"id":"t30","title":"Rêve Bleu","artist":"Éther","lyrics":"Souffle léger, rêve bleu et profond","tags":["ambient","chill"],"mood":"dreamy","tempo":45,"genre":"ambient","language":"fr"},
+  {"id":"t31","title":"波の記憶","artist":"SeaLull","lyrics":"遠い波の記憶が静かに戻る","tags":["ambient","instrumental"],"mood":"calm","tempo":52,"genre":"ambient","language":"jp"},
+
+  {"id":"t32","title":"Street Poem","artist":"MC Nova","lyrics":"Streets tell stories, words cut through the haze","tags":["hiphop","rap"],"mood":"intense","tempo":95,"genre":"hiphop","language":"en"},
+  {"id":"t33","title":"Ritmo de Barrio","artist":"La Rima","lyrics":"Rimas de barrio, el ritmo no se frena","tags":["hiphop","latin"],"mood":"energetic","tempo":100,"genre":"hiphop","language":"es"},
+  {"id":"t34","title":"जीत की राह","artist":"FlowKing","lyrics":"बातों में दम, ताल में आग","tags":["hiphop","bollywood"],"mood":"confident","tempo":98,"genre":"hiphop","language":"hi"},
+  {"id":"t35","title":"午夜のビート","artist":"BeatSensei","lyrics":"夜の街で刻むビート","tags":["hiphop","japanese"],"mood":"moody","tempo":92,"genre":"hiphop","language":"jp"},
+  {"id":"t36","title":"Cidade Alta","artist":"MC Porto","lyrics":"Rimas que contam a cidade alta","tags":["hiphop","portuguese"],"mood":"gritty","tempo":97,"genre":"hiphop","language":"pt"},
+
+  {"id":"t37","title":"Blue Alley","artist":"Smokey Lane","lyrics":"Saxophone lights the blue alley night","tags":["jazz","blues"],"mood":"melancholy","tempo":72,"genre":"jazz","language":"en"},
+  {"id":"t38","title":"Noches Azules","artist":"Trio Luna","lyrics":"Tarde y humo, acordes azules en la esquina","tags":["jazz","latin-jazz"],"mood":"calm","tempo":70,"genre":"jazz","language":"es"},
+  {"id":"t39","title":"古いブルース","artist":"Blue Harbor","lyrics":"古いブルースが静けさに染みる","tags":["blues","japanese"],"mood":"sad","tempo":68,"genre":"blues","language":"jp"},
+  {"id":"t40","title":"रात का जज़्ज़","artist":"Raga Jazz Collective","lyrics":"रात की खामोशी में जज़्ज़ के स्वर","tags":["jazz","fusion"],"mood":"calm","tempo":74,"genre":"jazz","language":"hi"},
+  {"id":"t41","title":"Petit Café","artist":"Le Quartette","lyrics":"Un vieux café, un piano, une voix cassée","tags":["jazz","french"],"mood":"nostalgic","tempo":76,"genre":"jazz","language":"fr"},
+
+  {"id":"t42","title":"Road Home","artist":"Dusty Trails","lyrics":"Dusty roads and a guitar on my knee, road home calls me back","tags":["country","folk"],"mood":"nostalgic","tempo":88,"genre":"country","language":"en"},
+  {"id":"t43","title":"Campo y Sol","artist":"Los Senderos","lyrics":"Cielos abiertos, alma en el campo","tags":["country","latin-folk"],"mood":"calm","tempo":82,"genre":"country","language":"es"},
+  {"id":"t44","title":"गाँव की रात","artist":"Desi Folk","lyrics":"चिरनई हवा में गूँजती पुरानी कहानियाँ","tags":["folk","indian"],"mood":"calm","tempo":70,"genre":"folk","language":"hi"},
+  {"id":"t45","title":"여정","artist":"Han Folk","lyrics":"작은 길 위에 남은 노래들","tags":["folk","korean"],"mood":"nostalgic","tempo":80,"genre":"folk","language":"kr"},
+  {"id":"t46","title":"Saudade","artist":"Porto Sons","lyrics":"Saudade chama nas colinas do norte","tags":["folk","portuguese"],"mood":"melancholy","tempo":85,"genre":"folk","language":"pt"},
+
+  {"id":"t47","title":"Baila Conmigo","artist":"NocheCaliente","lyrics":"Baila, siente la noche y no mires atrás","tags":["reggaeton","latin"],"mood":"party","tempo":106,"genre":"reggaeton","language":"es"},
+  {"id":"t48","title":"Corazón Urbano","artist":"UrbanoX","lyrics":"Calles y ritmos, corazón urbano late fuerte","tags":["reggaeton","urban"],"mood":"energetic","tempo":104,"genre":"reggaeton","language":"es"},
+  {"id":"t49","title":"夜のリズム","artist":"DJ Tama","lyrics":"夜の街を揺らすリズムを感じて","tags":["reggaeton","japanese"],"mood":"party","tempo":105,"genre":"reggaeton","language":"jp"},
+  {"id":"t50","title":"Amigos y Ritmo","artist":"La Banda","lyrics":"La fiesta no para, amigos y ritmo juntos","tags":["reggaeton","party"],"mood":"joyful","tempo":108,"genre":"reggaeton","language":"es"},
+
+  {"id":"t51","title":"చెరువులో","artist":"Ravi Teja","lyrics":"చెరువులో వెన్న చిందులు, సూర్యుడు ఆలోచనల్లో","tags":["telugu","folk"],"mood":"calm","tempo":72,"genre":"folk","language":"te"},
+  {"id":"t52","title":"ఆనందమె","artist":"Sunitha","lyrics":"ఆనందమె ఆనందమె, జీవితమె ఒక పాట","tags":["telugu","pop"],"mood":"happy","tempo":98,"genre":"pop","language":"te"},
+  {"id":"t53","title":"రాత్రి తరుణం","artist":"Karthik","lyrics":"రాత్రి తరుణం, గిటారు గీతం","tags":["telugu","indie"],"mood":"nostalgic","tempo":85,"genre":"indie","language":"te"},
+  {"id":"t54","title":"శక్తి","artist":"Subhalekha","lyrics":"శక్తి చేతుల్లో, ఆశ చిన్నటిది","tags":["telugu","rock"],"mood":"energetic","tempo":130,"genre":"rock","language":"te"},
+  {"id":"t55","title":"సంగీతం","artist":"Suresh Malhar","lyrics":"సంగీతం వినిపించినప్పుడు, ఆత్మ నిశ్శబ్దం","tags":["telugu","ambient"],"mood":"calm","tempo":55,"genre":"ambient","language":"te"},
+  {"id":"t56","title":"నీ తరపున","artist":"Anchor Jhansi","lyrics":"నీ తరపున నా గీతాలు, హృదయపూర్వకమైన ఆశీర్వాదాలు","tags":["telugu","ballad"],"mood":"romantic","tempo":80,"genre":"pop","language":"te"},
+  {"id":"t57","title":"రిథమ్","artist":"DJ Ravi","lyrics":"డిజిటల్ రిథమ్, నగరం తెలియరాని గీతం","tags":["telugu","electronic"],"mood":"party","tempo":125,"genre":"electronic","language":"te"},
+  {"id":"t58","title":"జీవितమె విజయం","artist":"T-Series","lyrics":"జీవితమె విజయం, కలలను సాకారం చేయడం","tags":["telugu","hiphop"],"mood":"confident","tempo":100,"genre":"hiphop","language":"te"}
+]
